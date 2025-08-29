@@ -1,10 +1,6 @@
-[package]
-name = "ros-jazzy-action-tutorials-py"
-version = "0.1.0"
-
 [package.build]
-backend = { name = "pixi-build-ros", path = "/Users/rubenarts/dev/pixi-build-backends/backends/pixi-build-ros" } 
-configuration = { distro = "jazzy" }
+backend = { name = "pixi-build-ros", version = "*"}
+config = { distro = "jazzy" }
 
 [package.run-dependencies]
 ros-jazzy-action-tutorials-interfaces = { path = "../action_tutorials_interfaces" }

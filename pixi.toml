@@ -14,7 +14,7 @@ cpp-client = "ros2 run action_tutorials_cpp fibonacci_action_client"
 
 [dependencies]
 # Needed for testing purpose
-pixi-build-api-version = { path = "~/dev/pixi-build-backends/recipe/pixi-build-api-version" }
+pixi-build-api-version = "*"
 
 ros-jazzy-action-tutorials-cpp = {  path = "action_tutorials/action_tutorials_cpp" }
 #ros-jazzy-action-tutorials-py = "*"
