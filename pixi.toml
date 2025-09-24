@@ -1,5 +1,5 @@
 [workspace]
-channels = ["https://prefix.dev/pixi-build-backends", "https://prefix.dev/conda-forge", "https://prefix.dev/robostack-jazzy"]
+channels = ["https://prefix.dev/conda-forge", "https://prefix.dev/robostack-jazzy"]
 platforms = ["osx-arm64", "linux-64"]
 preview = ["pixi-build"]
 
@@ -13,10 +13,7 @@ cpp-server = "ros2 run action_tutorials_cpp fibonacci_action_server"
 cpp-client = "ros2 run action_tutorials_cpp fibonacci_action_client"
 
 [dependencies]
-# Needed for testing purpose
-pixi-build-api-version = "*"
 
 ros-jazzy-action-tutorials-cpp = {  path = "action_tutorials/action_tutorials_cpp" }
-#ros-jazzy-action-tutorials-py = "*"
 ros-jazzy-action-tutorials-py = { path = "action_tutorials/action_tutorials_py" }
 ros-jazzy-desktop = "*"
